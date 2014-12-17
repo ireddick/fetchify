@@ -1,7 +1,9 @@
 adds a flexible fetch method to objects that support key/value operations
 
 
-objects currently require the following protocol:
+# requirements
+
+objects currently must support the following protocol:
 
 * has(key) - must return a boolean indicating presence of the key
 
@@ -12,7 +14,7 @@ the methods are called in the order has -> get
 (these are deliberately the same names as those in the ES6 Map)
 
 
-usage example:
+# usage example
 
 ```javascript
 var fetchify = require('fetchify').fetchify
