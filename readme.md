@@ -19,9 +19,7 @@ the methods are called in the order has -> get
 ## usage example
 
 ```javascript
-var fetchify = require('fetchify').fetchify
-
-fetchify(Map.prototype) // serious monkey patch!
+require('fetchify').fetchify(Map.prototype) // serious monkey patch!
 
 
 var map = new Map()
