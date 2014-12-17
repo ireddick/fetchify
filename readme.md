@@ -1,7 +1,9 @@
+# fetchify
+
 adds a flexible fetch method to objects that support key/value operations
 
 
-# requirements
+## requirements
 
 objects currently must support the following protocol:
 
@@ -14,7 +16,7 @@ the methods are called in the order has -> get
 (these are deliberately the same names as those in the ES6 Map)
 
 
-# usage example
+## usage example
 
 ```javascript
 var fetchify = require('fetchify').fetchify
