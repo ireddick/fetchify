@@ -1,0 +1,31 @@
+{
+  "name": "fetchify",
+  "description": "adds a flexible fetch method to objects that support key/value operations",
+  "version": "0.0.0",
+  "main": "lib/fetchify.js",
+  "dependencies": {
+    "jasmine-node": "~1.14.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ireddick/fetchify.git"
+  },
+  "keywords": [
+    "map",
+    "dictionary",
+    "hash",
+    "fetch"
+  ],
+  "author": "Iain Reddick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ireddick/fetchify/issues"
+  },
+  "homepage": "https://github.com/ireddick/fetchify",
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  },
+    "scripts": {
+    "test": "jasmine-node spec --verbose"
+  }
+}
