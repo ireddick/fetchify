@@ -17,7 +17,7 @@ usage example:
 ```javascript
 var fetchify = require('fetchify').fetchify
 
-fetchify(Map) // serious monkey patch!
+fetchify(Map.prototype) // serious monkey patch!
 
 
 var map = new Map()
