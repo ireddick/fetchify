@@ -30,7 +30,7 @@ map.fetch('missing key') // => throws missing key Error
 
 map.fetch('missing key', 'provided value') // => provided value
 
-map.fetch('missing key', function(key) { return 'result'}) // => result
+map.fetch('missing key', function(key) { return 'result' }) // => result
 
 map.fetch('missing key', function(key) { throw 'meaningful error message' })
 ```
