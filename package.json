@@ -11,7 +11,8 @@
     "map",
     "dictionary",
     "hash",
-    "fetch"
+    "fetch",
+    "ruby"
   ],
   "author": "Iain Reddick",
   "license": "ISC",
